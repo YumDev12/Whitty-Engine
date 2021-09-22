@@ -48,9 +48,9 @@ class Ratings
                 switch(i)
                 {
                     case 0:
-                        ranking += " AAAAA";
+                        ranking += " Ass Master";
                     case 1:
-                        ranking += " AAAA:";
+                        ranking += " Ass Security:";
                     case 2:
                         ranking += " AAAA.";
                     case 3:
@@ -78,14 +78,14 @@ class Ratings
                     case 14:
                         ranking += " C";
                     case 15:
-                        ranking += " D";
+                        ranking += " Anti Ass";
                 }
                 break;
             }
         }
 
         if (accuracy == 0)
-            ranking = "N/A";
+            ranking = "FUCKING SHIT";
 		else if(FlxG.save.data.botplay)
 			ranking = "BotPlay";
 
