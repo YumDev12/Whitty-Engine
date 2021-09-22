@@ -66,15 +66,15 @@ class Ratings
                     case 8:
                         ranking += " AA.";
                     case 9:
-                        ranking += " AA";
+                        ranking += " Ass";
                     case 10:
-                        ranking += " A:";
+                        ranking += " YAY!!!:";
                     case 11:
-                        ranking += " A.";
+                        ranking += " YAY!!.";
                     case 12:
-                        ranking += " A";
+                        ranking += " YAY!";
                     case 13:
-                        ranking += " B";
+                        ranking += " Getting Better";
                     case 14:
                         ranking += " Balistic";
                     case 15:
