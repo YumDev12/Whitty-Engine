@@ -17,7 +17,3 @@ Winter-Horrorland:monster-christmas:5
 Senpai:senpai:6
 Roses:senpai:6
 Thorns:spirit:6
-Lo-Fight:whitty:7
-Overhead:whitty:7
-Ballistic:whittyCrazy:7
-Ballistic-Old:whittyCrazy:7
