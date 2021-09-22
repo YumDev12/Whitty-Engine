@@ -64,7 +64,7 @@ class Ratings
                     case 7:
                         ranking += " AA:";
                     case 8:
-                        ranking += " AA.";
+                        ranking += " ANUS Da Planet.";
                     case 9:
                         ranking += " AA";
                     case 10:
