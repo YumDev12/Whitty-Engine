@@ -52,9 +52,9 @@ class Ratings
                     case 1:
                         ranking += " Ass Security:";
                     case 2:
-                        ranking += " AAAA.";
+                        ranking += " Ass Reception.";
                     case 3:
-                        ranking += " AAAA";
+                        ranking += " No Whitty";
                     case 4:
                         ranking += " AAA:";
                     case 5:
@@ -76,7 +76,7 @@ class Ratings
                     case 13:
                         ranking += " B";
                     case 14:
-                        ranking += " C";
+                        ranking += " Balistic";
                     case 15:
                         ranking += " Anti Ass";
                 }
