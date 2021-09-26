@@ -162,9 +162,9 @@ class MainMenuState extends MusicBeatState
 				if (optionShit[curSelected] == 'Releases')				
 				}
 					#if linux
-					Sys.command('/usr/bin/xdg-open', ["Github.com/Whitty-Engine", "&"]);
+					Sys.command('/usr/bin/xdg-open', ["Github.com/YumDev12/Whitty-Engine", "&"]);
 					#else
-					FlxG.openURL('Github.com/Whitty-Engine);
+					FlxG.openURL('Github.com/YumDev12/Whitty-Engine', '&']);
 					#end
 				}			
 				else
