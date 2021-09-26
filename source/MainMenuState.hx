@@ -27,7 +27,7 @@ class MainMenuState extends MusicBeatState
 	var menuItems:FlxTypedGroup<FlxSprite>;
 
 	#if !switch
-	var optionShit:Array<String> = ['story mode', 'freeplay', 'donate', 'options'];
+	var optionShit:Array<String> = ['story mode', 'freeplay', 'donate', 'options', 'Releases'];
 	#else
 	var optionShit:Array<String> = ['story mode', 'freeplay'];
 	#end
@@ -158,7 +158,15 @@ class MainMenuState extends MusicBeatState
 					#else
 					FlxG.openURL('https://ninja-muffin24.itch.io/funkin');
 					#end
+				
+				if (optionShit[curSelected] == 'Releases')				
 				}
+					#if linux
+					Sys.command('/usr/bin/xdg-open', ["Github.com/Whitty-Engine", "&"]);
+					#else
+					FlxG.openURL('Github.com/Whitty-Engine);
+					#end
+				}			
 				else
 				{
 					selectedSomethin = true;
